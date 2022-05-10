@@ -173,6 +173,27 @@ h5 {
 
 
 /******************************
+*	Animacion
+******************************/
+
+.rotate-anim {
+    animation: rotation 2.5s infinite ease-in-out;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+
+/******************************
 *	MOBILE
 ******************************/
 
